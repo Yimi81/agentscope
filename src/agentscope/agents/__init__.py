@@ -6,6 +6,7 @@ from .dialog_agent import DialogAgent
 from .dict_dialog_agent import DictDialogAgent
 from .user_agent import UserAgent
 from .react_agent import ReActAgent
+from .code_agent import CodeAgent
 from .rag_agent import LlamaIndexAgent
 
 
@@ -16,5 +17,6 @@ __all__ = [
     "DictDialogAgent",
     "UserAgent",
     "ReActAgent",
+    "CodeAgent",
     "LlamaIndexAgent",
 ]
